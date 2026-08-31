@@ -1,0 +1,19 @@
+{
+  "_readme": "Original life-aspect wording, inspired by the general direction-to-life-theme approach used by some modern Vastu schools, not copied from any specific app. Element follows the classical 4-quadrant assignment (NE=Water, SE=Fire, SW=Earth, NW=Air); Space/Akasha is reserved for the Brahmasthan centre, not a perimeter direction, consistent with how Vastu32 already treats the centre. Dosha is derived from the classical Ayurvedic element-dosha pairing (Water+Earth -> Kapha, Fire -> Pitta, Air -> Vata), not an independent guess.",
+  "N": {"aspectEn": "Career", "aspectHi": "करियर", "element": "Water", "dosha": "Kapha"},
+  "NNE": {"aspectEn": "Growth", "aspectHi": "विकास", "element": "Water", "dosha": "Kapha"},
+  "NE": {"aspectEn": "Wisdom", "aspectHi": "ज्ञान", "element": "Water", "dosha": "Kapha"},
+  "ENE": {"aspectEn": "Learning", "aspectHi": "अध्ययन", "element": "Water", "dosha": "Kapha"},
+  "E": {"aspectEn": "Health", "aspectHi": "स्वास्थ्य", "element": "Fire", "dosha": "Pitta"},
+  "ESE": {"aspectEn": "Vitality", "aspectHi": "जीवनशक्ति", "element": "Fire", "dosha": "Pitta"},
+  "SE": {"aspectEn": "Prosperity", "aspectHi": "समृद्धि", "element": "Fire", "dosha": "Pitta"},
+  "SSE": {"aspectEn": "Recognition", "aspectHi": "प्रतिष्ठा", "element": "Fire", "dosha": "Pitta"},
+  "S": {"aspectEn": "Reputation", "aspectHi": "यश", "element": "Earth", "dosha": "Kapha"},
+  "SSW": {"aspectEn": "Resolve", "aspectHi": "दृढ़ता", "element": "Earth", "dosha": "Kapha"},
+  "SW": {"aspectEn": "Stability", "aspectHi": "स्थिरता", "element": "Earth", "dosha": "Kapha"},
+  "WSW": {"aspectEn": "Relationships", "aspectHi": "रिश्ते", "element": "Earth", "dosha": "Kapha"},
+  "W": {"aspectEn": "Creativity", "aspectHi": "रचनात्मकता", "element": "Air", "dosha": "Vata"},
+  "WNW": {"aspectEn": "Support", "aspectHi": "सहयोग", "element": "Air", "dosha": "Vata"},
+  "NW": {"aspectEn": "Movement", "aspectHi": "गतिशीलता", "element": "Air", "dosha": "Vata"},
+  "NNW": {"aspectEn": "Opportunity", "aspectHi": "अवसर", "element": "Air", "dosha": "Vata"}
+}

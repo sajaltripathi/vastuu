@@ -1,0 +1,145 @@
+{
+  "_readme": "Pada codes reference Vastu32.CODES in the existing app (E1..E8, S1..S8, W1..W8, N1..N8, 11.25 degrees each, starting at the NE corner). These are commonly-cited classical placements, not a single unchallenged standard -- Vastu texts and regional schools disagree on secondary rooms especially. Review against whichever source/tradition you want the app to stand behind before shipping, and treat 'Entrance' as the least reliable entry here since real practice weighs it against the plot's overall facing direction, which this pada-only model doesn't capture.",
+  "rooms": [
+    {
+      "roomType": "Entrance",
+      "idealPadaCodes": ["N6", "N7", "N8", "E1", "E2", "E3"],
+      "acceptablePadaCodes": ["N5", "E4", "E5"],
+      "avoidPadaCodes": ["S8", "W1"],
+      "idealNote": "North/Northeast/East entrances are the most consistently favored across traditions.",
+      "acceptableNote": "Workable, though not the strongest zone for a main entrance.",
+      "avoidNote": "Southwest entrances are widely flagged as unfavorable.",
+      "remedy": "A well-lit threshold and a Ganesh/Kalash motif above the door are commonly suggested softeners; for a real structural concern, weigh this against the plot's overall facing direction, not just this one pada."
+    },
+    {
+      "roomType": "Kitchen",
+      "idealPadaCodes": ["E8", "S1", "S2"],
+      "acceptablePadaCodes": ["E7", "S3"],
+      "avoidPadaCodes": ["N7", "N8", "E1", "E2", "S7", "S8", "W1"],
+      "idealNote": "Southeast is the Agni (fire) corner -- the traditional ideal for a kitchen.",
+      "acceptableNote": "Close enough to the Agni corner to be workable.",
+      "avoidNote": "Fire in the Northeast (Ishanya) or Southwest (Nairutya) is considered a clash of elements.",
+      "remedy": "If relocating isn't possible, cook facing east, and keep the stove itself out of the exact corner point of the room."
+    },
+    {
+      "roomType": "Washroom",
+      "idealPadaCodes": ["W4", "W5"],
+      "acceptablePadaCodes": ["W3", "W6", "S5", "S6"],
+      "avoidPadaCodes": ["N7", "N8", "E1", "E2", "S7", "S8", "W1"],
+      "idealNote": "West is the commonly-cited safe zone for a toilet/washroom.",
+      "acceptableNote": "South-central is generally tolerated for a washroom.",
+      "avoidNote": "Northeast (Ishanya) and Southwest (Nairutya) are strongly discouraged for a toilet.",
+      "remedy": "Keep the door closed, add an exhaust fan, and use light colors; some traditions also suggest a small salt bowl as a symbolic absorber."
+    },
+    {
+      "roomType": "Bedroom",
+      "idealPadaCodes": ["S8", "W1"],
+      "acceptablePadaCodes": ["S7", "W2"],
+      "avoidPadaCodes": ["N7", "N8", "E1", "E2"],
+      "idealNote": "Southwest (Nairutya) is the classical placement for the primary bedroom -- stability and grounding.",
+      "acceptableNote": "Adjacent to the Southwest corner, generally workable.",
+      "avoidNote": "Northeast is considered too energetically active for restful sleep.",
+      "remedy": "Sleep with the head toward south or east; avoid a bed directly under a beam."
+    },
+    {
+      "roomType": "Master Bedroom",
+      "idealPadaCodes": ["S8", "W1"],
+      "acceptablePadaCodes": ["S7", "W2"],
+      "avoidPadaCodes": ["N7", "N8", "E1", "E2"],
+      "idealNote": "Southwest (Nairutya) is the classical placement for the head of household's room.",
+      "acceptableNote": "Adjacent to the Southwest corner, generally workable.",
+      "avoidNote": "Northeast is considered too energetically active for restful sleep.",
+      "remedy": "Sleep with the head toward south or east; avoid a bed directly under a beam."
+    },
+    {
+      "roomType": "Kids Bedroom",
+      "idealPadaCodes": ["W6", "W7", "W8"],
+      "acceptablePadaCodes": ["N1", "W5"],
+      "avoidPadaCodes": ["S8", "W1"],
+      "idealNote": "West is a common recommendation for children's rooms.",
+      "acceptableNote": "Northwest is workable and often used for a study-adjacent kids' room.",
+      "avoidNote": "The deep Southwest corner is traditionally reserved for the head of household, not children.",
+      "remedy": "No structural remedy needed -- this is a soft preference, not a dosh."
+    },
+    {
+      "roomType": "Guest Room",
+      "idealPadaCodes": ["W8", "N1"],
+      "acceptablePadaCodes": ["W7", "N2"],
+      "avoidPadaCodes": [],
+      "idealNote": "Northwest (Vayu) is associated with movement and transience, fitting for a room meant for temporary stays.",
+      "acceptableNote": "Close to the Northwest corner, generally fine.",
+      "avoidNote": "",
+      "remedy": ""
+    },
+    {
+      "roomType": "Puja",
+      "idealPadaCodes": ["N8", "E1"],
+      "acceptablePadaCodes": ["N7", "E2"],
+      "avoidPadaCodes": ["S7", "S8", "W1", "S4", "S5"],
+      "idealNote": "Northeast (Ishanya) is the most universally agreed-upon placement in all of Vastu Shastra for a prayer/puja room.",
+      "acceptableNote": "Adjacent to the Northeast corner, still favorable.",
+      "avoidNote": "Southwest and due-south placements are discouraged for a prayer space.",
+      "remedy": "If the room can't move, a small Ishanya-facing altar within the room is a common partial fix."
+    },
+    {
+      "roomType": "Living",
+      "idealPadaCodes": ["N4", "N5", "N6", "E3", "E4", "E5"],
+      "acceptablePadaCodes": ["N3", "E2", "E6"],
+      "avoidPadaCodes": [],
+      "idealNote": "North (Kubera, wealth) and East (Surya, morning light) are the classical zones for a living/reception area.",
+      "acceptableNote": "Adjacent zones, still generally favorable for a living room.",
+      "avoidNote": "",
+      "remedy": ""
+    },
+    {
+      "roomType": "Dining",
+      "idealPadaCodes": ["W3", "W4", "S3", "S4"],
+      "acceptablePadaCodes": ["W2", "W5", "S2", "S5"],
+      "avoidPadaCodes": [],
+      "idealNote": "West or south, ideally adjoining the kitchen, is the common recommendation for a dining area.",
+      "acceptableNote": "Nearby zones, still workable for dining.",
+      "avoidNote": "",
+      "remedy": ""
+    },
+    {
+      "roomType": "Study",
+      "idealPadaCodes": ["N5", "N6", "E2", "E3"],
+      "acceptablePadaCodes": ["N4", "E1", "E4"],
+      "avoidPadaCodes": ["S8", "W1"],
+      "idealNote": "North or Northeast is commonly recommended for concentration and study.",
+      "acceptableNote": "Adjacent zones, generally workable for a study.",
+      "avoidNote": "The deep Southwest corner is considered too heavy/static for study.",
+      "remedy": "Face north or east while studying/working, regardless of which pada the desk sits in."
+    },
+    {
+      "roomType": "Staircase",
+      "idealPadaCodes": ["S4", "S5", "W4", "W5"],
+      "acceptablePadaCodes": ["S3", "S6", "W3", "W6"],
+      "avoidPadaCodes": ["N7", "N8", "E1", "E2"],
+      "idealNote": "South or west is the classical placement for a staircase.",
+      "acceptableNote": "Nearby zones, generally workable.",
+      "avoidNote": "Northeast is strongly discouraged for a staircase -- it's meant to stay open and light.",
+      "remedy": "If it can't move, keep the Northeast corner itself clear of the stair's structure even if the run passes nearby."
+    },
+    {
+      "roomType": "Store Room",
+      "idealPadaCodes": ["W7", "W8"],
+      "acceptablePadaCodes": ["S6", "S7", "W6"],
+      "avoidPadaCodes": ["N7", "N8", "E1", "E2"],
+      "idealNote": "Northwest is the common recommendation for storage.",
+      "acceptableNote": "South/southwest-adjacent zones are also workable for storage.",
+      "avoidNote": "Northeast should stay open and uncluttered, not used for storage.",
+      "remedy": "No structural remedy needed -- this is a soft preference, not a dosh."
+    },
+    {
+      "roomType": "Balcony",
+      "idealPadaCodes": ["N4", "N5", "E4", "E5"],
+      "acceptablePadaCodes": ["N3", "N6", "E3", "E6"],
+      "avoidPadaCodes": [],
+      "idealNote": "North or east open spaces are traditionally favored for balconies/sit-outs, to welcome morning light.",
+      "acceptableNote": "Adjacent zones, still generally favorable.",
+      "avoidNote": "",
+      "remedy": ""
+    }
+  ]
+}

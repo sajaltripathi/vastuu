@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tiscan.app">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- INTERNET/ACCESS_NETWORK_STATE are required transitively by ARCore's and
+         Play Services' own availability checks, not used for any app data traffic —
+         every feature in this app runs fully offline once installed. -->
+
+    <uses-feature android:name="android.hardware.camera.ar" android:required="true" />
+    <uses-feature android:name="android.hardware.microphone" android:required="false" />
+
+    <application
+        android:label="@string/app_name"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="false">
+
+        <!-- Required by ARCore — declared by the app per ARCore's own setup docs. -->
+        <meta-data android:name="com.google.ar.core" android:value="required" />
+
+        <activity
+            android:name=".PropertyActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity" android:exported="false" />
+        <activity android:name=".ARScanActivity" android:exported="false" />
+        <activity android:name=".FloorPlanActivity" android:exported="false" />
+        <activity android:name=".VastuChakraActivity" android:exported="false" />
+        <activity android:name=".HistoryActivity" android:exported="false" />
+        <activity android:name=".ReportActivity" android:exported="false" />
+
+    </application>
+</manifest>
